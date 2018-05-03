@@ -1,0 +1,52 @@
+2018-01-31 15:25:47.794 INFO  (main) [   ] o.e.j.s.Server jetty-9.3.20.v20170531
+2018-01-31 15:25:48.369 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr? version 7.2.1
+2018-01-31 15:25:48.370 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-01-31 15:25:48.370 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1
+2018-01-31 15:25:48.394 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-01-31T15:25:48.372Z
+2018-01-31 15:25:48.394 INFO  (main) [   ] o.a.s.u.StartupLoggingUtils Property solr.log.muteconsole given. Muting ConsoleAppender named CONSOLE
+2018-01-31 15:25:48.412 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr
+2018-01-31 15:25:48.418 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr\solr.xml
+2018-01-31 15:25:53.633 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr
+2018-01-31 15:25:53.635 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [guigle_Dec14]
+2018-01-31 15:25:53.639 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-01-31 15:25:53.705 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.c.SolrResourceLoader [guigle_Dec14] Added 53 libs to classloader, from paths: [/C:/Users/Linyong/Desktop/Spring%202018/solr-7.2.1/contrib/clustering/lib, /C:/Users/Linyong/Desktop/Spring%202018/solr-7.2.1/contrib/extraction/lib, /C:/Users/Linyong/Desktop/Spring%202018/solr-7.2.1/contrib/langid/lib, /C:/Users/Linyong/Desktop/Spring%202018/solr-7.2.1/contrib/velocity/lib, /C:/Users/Linyong/Desktop/Spring%202018/solr-7.2.1/dist]
+2018-01-31 15:25:53.867 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.0.0
+2018-01-31 15:25:54.054 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.s.IndexSchema [guigle_Dec14] Schema name=default-config
+2018-01-31 15:25:54.131 INFO  (main) [   ] o.e.j.s.Server Started @7007ms
+2018-01-31 15:25:54.351 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.s.IndexSchema Loaded schema default-config/1.6 with uniqueid field id
+2018-01-31 15:25:54.894 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.c.CoreContainer Creating SolrCore 'guigle_Dec14' using configuration from instancedir C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr\guigle_Dec14, trusted=true
+2018-01-31 15:25:54.923 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.c.SolrCore solr.RecoveryStrategy.Builder
+2018-01-31 15:25:54.928 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.c.SolrCore [[guigle_Dec14] ] Opening new SolrCore at [C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr\guigle_Dec14], dataDir=[C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr\guigle_Dec14\data\]
+2018-01-31 15:25:54.962 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-01-31 15:25:55.288 INFO  (qtp761960786-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=64
+2018-01-31 15:25:59.784 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-01-31 15:25:59.784 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-01-31 15:25:59.816 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.u.CommitTracker Hard AutoCommit: if uncommited for 15000ms; 
+2018-01-31 15:25:59.816 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.u.CommitTracker Soft AutoCommit: disabled
+2018-01-31 15:26:00.229 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.s.SolrIndexSearcher Opening [Searcher@1dcba74[guigle_Dec14] main]
+2018-01-31 15:26:00.237 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Linyong\Desktop\Spring 2018\solr-7.2.1\server\solr\guigle_Dec14\conf
+2018-01-31 15:26:00.251 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-01-31 15:26:00.255 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=_text_,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-01-31 15:26:00.263 INFO  (coreLoadExecutor-6-thread-1) [   x:guigle_Dec14] o.a.s.h.ReplicationHandler Commits will be reserved for 10000ms.
+2018-01-31 15:26:00.310 INFO  (searcherExecutor-7-thread-1-processing-x:guigle_Dec14) [   x:guigle_Dec14] o.a.s.c.QuerySenderListener QuerySenderListener sending requests to Searcher@1dcba74[guigle_Dec14] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8ij(7.0.0):C9657) Uninverting(_abl(7.0.0):C2107) Uninverting(_ak7(7.0.0):c280) Uninverting(_ak8(7.0.0):C1) Uninverting(_ak9(7.0.0):C1) Uninverting(_aka(7.0.0):C1) Uninverting(_akb(7.0.0):C1) Uninverting(_akc(7.0.0):C1) Uninverting(_akd(7.0.0):C1) Uninverting(_ake(7.0.0):C1)))}
+2018-01-31 15:26:00.311 INFO  (searcherExecutor-7-thread-1-processing-x:guigle_Dec14) [   x:guigle_Dec14] o.a.s.c.QuerySenderListener QuerySenderListener done.
+2018-01-31 15:26:00.311 INFO  (searcherExecutor-7-thread-1-processing-x:guigle_Dec14) [   x:guigle_Dec14] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-01-31 15:26:00.315 INFO  (searcherExecutor-7-thread-1-processing-x:guigle_Dec14) [   x:guigle_Dec14] o.a.s.c.SolrCore [guigle_Dec14] Registered new searcher Searcher@1dcba74[guigle_Dec14] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_8ij(7.0.0):C9657) Uninverting(_abl(7.0.0):C2107) Uninverting(_ak7(7.0.0):c280) Uninverting(_ak8(7.0.0):C1) Uninverting(_ak9(7.0.0):C1) Uninverting(_aka(7.0.0):C1) Uninverting(_akb(7.0.0):C1) Uninverting(_akc(7.0.0):C1) Uninverting(_akd(7.0.0):C1) Uninverting(_ake(7.0.0):C1)))}
+2018-01-31 15:26:11.460 INFO  (qtp761960786-15) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1517412371333} status=0 QTime=1
+2018-01-31 15:26:11.541 INFO  (qtp761960786-17) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1517412371334} status=0 QTime=82
+2018-01-31 15:26:11.611 INFO  (qtp761960786-18) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1517412371334} status=0 QTime=66
+2018-01-31 15:26:15.305 INFO  (qtp761960786-37) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1517412371333} status=0 QTime=0
+2018-01-31 15:26:15.314 INFO  (qtp761960786-19) [   x:guigle_Dec14] o.a.s.c.S.Request [guigle_Dec14]  webapp=/solr path=/admin/luke params={numTerms=0&show=index&wt=json&_=1517412375296} status=0 QTime=7
+2018-01-31 15:26:15.315 INFO  (qtp761960786-17) [   x:guigle_Dec14] o.a.s.c.S.Request [guigle_Dec14]  webapp=/solr path=/admin/ping params={action=status&wt=json&_=1517412371334&ts=1517412371334} status=503 QTime=3
+2018-01-31 15:26:15.320 INFO  (qtp761960786-22) [   x:guigle_Dec14] o.a.s.c.S.Request [guigle_Dec14]  webapp=/solr path=/replication params={wt=json&command=details&_=1517412375296} status=0 QTime=11
+2018-01-31 15:26:15.441 INFO  (qtp761960786-21) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1517412371334} status=0 QTime=135
+2018-01-31 15:26:15.441 INFO  (qtp761960786-15) [   x:guigle_Dec14] o.a.s.c.S.Request [guigle_Dec14]  webapp=/solr path=/admin/system params={wt=json&_=1517412375296} status=0 QTime=131
+2018-01-31 15:26:17.662 INFO  (qtp761960786-22) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1517412371333} status=0 QTime=0
+2018-01-31 15:26:17.734 INFO  (qtp761960786-14) [   ] o.a.s.s.HttpSolrCall [admin] webapp=null path=/admin/info/system params={wt=json&_=1517412371334} status=0 QTime=72
+2018-01-31 15:26:22.254 INFO  (qtp761960786-21) [   x:guigle_Dec14] o.a.s.c.S.Request [guigle_Dec14]  webapp=/solr path=/select params={q=*:*&fq=appname:music&_=1517412377626} hits=236 status=0 QTime=77
+2018-01-31 15:26:33.538 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=551479935
+2018-01-31 15:26:33.538 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-01-31 15:26:33.538 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-01-31 15:26:33.538 INFO  (ShutdownMonitor) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null
+2018-01-31 15:26:33.540 INFO  (coreCloseExecutor-12-thread-1) [   x:guigle_Dec14] o.a.s.c.SolrCore [guigle_Dec14]  CLOSING SolrCore org.apache.solr.core.SolrCore@65b6c40f
+2018-01-31 15:26:33.540 INFO  (coreCloseExecutor-12-thread-1) [   x:guigle_Dec14] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.core.guigle_Dec14, tag=1706476559

@@ -1,0 +1,1 @@
+# A script to automatically install the necessary parts of the repo

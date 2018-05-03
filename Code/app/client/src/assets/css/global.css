@@ -1,0 +1,23 @@
+/* Define some css variables for consistend styling*/
+:root
+{
+    /** Light theme **/
+    --text-color-primary   : rgba(0,0,0,.9);
+    --text-color-secondary : rgba(0,0,0,.8);
+    --text-color-tertiary  : rgba(0,0,0,.4);
+    --background-main      : #fff;
+    --background-secondary : #aaa;
+    /** Dark theme **/
+    --background-main-dark       : #000;
+    --background-secondary-dark  : #333;
+}
+/* Remove margin and padding from page & make it full-width and full-height */
+html, body, #app, .root
+{
+    font-family: 'Lato', sans-serif;
+    position : relative;
+    margin : 0;
+    padding : 0;
+    width : 100%;
+    height : 100%;
+}
